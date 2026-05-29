@@ -1,5 +1,5 @@
 
-# Job Scraper Backend
+# jobs_scrapper_backend
 
 Cloud-native backend for a job scraping platform built with FastAPI and deployed on AWS. The system exposes authenticated APIs for job management and image-related workflows, runs scheduled background scraper tasks on ECS/Fargate, and ships through a CI/CD pipeline using AWS CodeBuild and CodePipeline.
 
@@ -111,13 +111,13 @@ alembic upgrade head
 
 ## Repository Naming
 
-The current repository name, `image_recogniser_backend`, no longer reflects the broader project scope if the main product is a job scraper platform.
+The current repository name is `jobs_scrapper_backend`, which matches the broader project scope more closely than the earlier image-focused name.
 
-If the backend primarily serves job scraping workflows, a name such as `job_scraper_backend` is more accurate and easier to explain on a CV or in interviews.
+The repository is now positioned as a cloud-native job scraping backend that supports scheduled ECS/Fargate workloads, API services, and CI/CD delivery on AWS.
 
 Recommended naming options:
 
-- `job_scraper_backend`
+- `jobs_scrapper_backend`
 - `job-scraper-backend`
 - `job-platform-backend`
 

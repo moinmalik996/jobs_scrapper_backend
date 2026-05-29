@@ -1,7 +1,7 @@
 [project]
-name = "backend"
+name = "jobs_scrapper_backend"
 version = "0.1.0"
-description = "Add your description here"
+description = "Cloud-native backend for scheduled job scraping workflows on AWS"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

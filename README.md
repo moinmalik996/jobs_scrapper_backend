@@ -109,7 +109,7 @@ alembic upgrade head
 - ECS cluster deployments are intended to use a rolling update strategy.
 - Scheduled scraper execution can be attached to EventBridge rules targeting ECS/Fargate tasks.
 
-## Repository Naming
+<!-- ## Repository Naming
 
 The current repository name is `jobs_scrapper_backend`, which matches the broader project scope more closely than the earlier image-focused name.
 
@@ -125,5 +125,5 @@ If image recognition remains a major feature rather than a secondary capability,
 
 ## Suggested Positioning
 
-For documentation, CVs, and interviews, describe this as a cloud-native job scraper backend with scheduled ECS/Fargate workers, CI/CD on AWS CodePipeline, and production deployment on ECS.
+For documentation, CVs, and interviews, describe this as a cloud-native job scraper backend with scheduled ECS/Fargate workers, CI/CD on AWS CodePipeline, and production deployment on ECS. -->
 
